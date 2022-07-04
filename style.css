@@ -1,0 +1,109 @@
+*{
+    font-family: 'Source Serif 4',
+serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.top-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top-content{
+    padding: 5% 25%;
+}
+
+h1{
+    font-size: 50px;
+    color: gray;
+}
+
+span{
+    color: lawngreen;
+}
+.first-line{
+    color: lawngreen ;
+}
+p{
+    text-align: justify;
+    color: rgb(216, 201, 84);
+}
+h3{
+    color: coral;
+}
+
+.button{
+    text-decoration: none;
+    background-color: rgb(69, 118, 202);
+    color: white;
+    padding: 7px 17px;
+    border-radius: 6px;
+    
+}
+
+.dream-big{
+    display: flex;
+    margin-top: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-right: 3%;
+}
+
+.dream-big img{
+    width: 70%;
+    padding-left: 10%;
+    
+    
+}
+
+.my-image{
+    background-image: url(images/my-bg.png);
+    background-position: center;
+    
+    background-position: top;
+}
+
+.experience{
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.experience-item{
+    display: flex;
+}
+
+.item{
+    width: 40%;
+    padding: 3%;
+    box-shadow: 10px 10px 20px lawngreen;
+    margin: 5%;
+    border-radius: 10px;
+    
+}
+
+.experience h1{
+    text-align: center;
+}
+
+#junior{
+    border-left: 5px solid blueviolet;
+}
+#full-stack{
+    border-left: 5px solid yellow;
+}
+
+footer p{
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
